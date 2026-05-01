@@ -1,7 +1,11 @@
 # rise-cs2
 
 source-2 render/debug SDK layer for CS2.
+no external libraries used for rendering or hooking of any kind.
+all we're doing here is just invoking functions from client.dll to render text, boxes, spheres, lines ,etc.
+now all you need is world to screen and an entity loop and you have a fully engine rendered internal
 
+https://streamable.com/jqd8xw
 ## render examples
 
 ```cpp
