@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{c3a5b6b9-7405-4b81-a57d-85f99f46a2b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\logging">
+      <UniqueIdentifier>{b38eb915-bcad-432d-9583-36190f6d9d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\rise">
+      <UniqueIdentifier>{415d4e50-d3d7-4c16-8f44-c8facd6b14e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\settings">
+      <UniqueIdentifier>{e7d2f593-a4be-484c-ae55-bbca7ce316b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\source2">
+      <UniqueIdentifier>{9f06b5fc-1e58-42c5-98df-9f09ed483e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\source2\essdee">
+      <UniqueIdentifier>{ba80e2a4-1bf1-44ef-a991-99ac7c1f6630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\source2\render">
+      <UniqueIdentifier>{206f048e-4e09-4239-8927-dc8140c19793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="incl.h" />
+    <ClInclude Include="source\logging\logger.hpp">
+      <Filter>source\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="source\settings\settings.hpp">
+      <Filter>source\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="source\source2\essdee\math.hpp">
+      <Filter>source\source2\essdee</Filter>
+    </ClInclude>
+    <ClInclude Include="source\source2\essdee\offsets.hpp">
+      <Filter>source\source2\essdee</Filter>
+    </ClInclude>
+    <ClInclude Include="source\source2\essdee\structs.hpp">
+      <Filter>source\source2\essdee</Filter>
+    </ClInclude>
+    <ClInclude Include="source\source2\render\render.hpp">
+      <Filter>source\source2\render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\rise\entry.cpp">
+      <Filter>source\rise</Filter>
+    </ClCompile>
+    <ClCompile Include="source\source2\render\render.cpp">
+      <Filter>source\source2\render</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
