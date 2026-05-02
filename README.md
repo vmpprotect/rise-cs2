@@ -9,6 +9,11 @@ all we're doing here is just invoking functions from client.dll to render text, 
 now all you need is world to screen and an entity loop and you have a fully engine rendered internal
 
 https://streamable.com/jqd8xw
+
+## questions?
+> DM Me on UC @aaddpp
+> Or reply under the post i made for this https://www.unknowncheats.me/forum/counter-strike-2-a/750591-internal-engine-render-sdk.html
+
 ## render examples
 
 ```cpp
